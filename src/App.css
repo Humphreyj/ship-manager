@@ -5,6 +5,8 @@
 
 .wrapper {
   background: url('./img/ocean.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,9 +25,7 @@
   color: black;
 }
 
-h1 {
-  font-family: 'Felipa', serif;
-}
+
 h3 {
   font-family: 'Arvo', serif;
 }
@@ -43,6 +43,10 @@ p {
   height: 80%;
   margin: auto;
   background-color: white;
+}
+.ship-name {
+  font-family: 'Felipa', serif;
+  font-size: 38px;
 }
 .ship-info {
   border: 2px solid #111;
