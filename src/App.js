@@ -12,7 +12,6 @@ class App extends Component {
       
         <BrowserRouter>
           <div className="wrapper">
-            <Navigation />
             <div className='App'>
               <Route path='/' component={TheOar} exact />
               <Route path='/crew' component={Crew}/>

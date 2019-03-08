@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-  background-color: #111;
+  background: url('./img/ocean.jpeg');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,7 +33,7 @@ p {
   font-family: 'Roboto Mono', serif;
   font-size: 15px;
 }
-
+/*Ship Ship Ship*/
 .the-oar {
   display: flex;
   flex-direction: column;
@@ -45,9 +45,10 @@ p {
   background-color: white;
 }
 .ship-info {
-  border: 1px solid #111;
+  border: 2px solid #111;
   width: 60%;
   margin: auto;
+  box-shadow: 2px 4px 4px #333;
 }
 .ship-health {
   width: 60%;
@@ -79,12 +80,16 @@ p {
 .ship-speed::before {
   content:'Speed:  ';
 }
+
+/*Ship Ship Ship*/
 /*Weaponry!*/
 .weaponry {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: auto;
+  border: 2px solid;
+  box-shadow: 2px 4px 4px #333;
 }
 .weapon {
   border: 1px solid #111;
@@ -118,8 +123,9 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  border: 1px solid #111;
+  border: 2px solid #111;
   font-size: 13px;
+  box-shadow: 2px 4px 4px #333;
 }
 .minus {
   background-color: red;
