@@ -6,7 +6,7 @@ export class ShipStats extends Component {
 		super()
 
 		this.state = {
-			shipHP: 700,
+			shipHP: 650,
 			hpChange: ''
 			
 		}

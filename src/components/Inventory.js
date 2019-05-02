@@ -24,12 +24,12 @@ export class Inventory extends Component {
     {
       id: 2,
       name: 'Cannonballs: ',
-      count: 30,
+      count: 53,
     },
     {
       id: 3,
       name: 'Planks: ',
-      count: 20,
+      count: 42,
     },
     {
     	id: 4,
