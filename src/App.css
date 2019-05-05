@@ -1,12 +1,17 @@
 .App {
   text-align: center;
+  height: 100%;
+  width: 100%;
 
 }
 
 .wrapper {
   background: url('./img/ocean.jpeg');
+  height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,6 +148,14 @@ p {
   padding: 10px;
 
 }
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/*INVENTORY*/
 
 /*CREW!*/
 

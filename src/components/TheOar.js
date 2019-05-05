@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Inventory from './Inventory'
 import Weaponry from './Weaponry'
 import ShipStats from './ShipStats'
+import FindItems from './FindItems'
 
 
 
@@ -21,6 +22,7 @@ export class TheOar extends Component {
 				 
 				<h3>Inventory</h3>
 				<Inventory />
+				<FindItems />
 
 			</div> 
     	</div>

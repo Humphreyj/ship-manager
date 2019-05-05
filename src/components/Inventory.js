@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import InventoryItem from './InventoryItem'
 import axios from '.././axios-orders'
 
+
 export class Inventory extends Component {
 	constructor() {
 		super()
@@ -81,7 +82,7 @@ itemUp(id) {
 				
 				{inventoryItems}
 				
-
+				
 			</div>
 		);
 	}
